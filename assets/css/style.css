@@ -1,0 +1,23 @@
+header {
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+    border: solid 1px #dddddd;
+}
+
+.topbar {
+    justify-content: flex-end;
+}
+.myname {
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
