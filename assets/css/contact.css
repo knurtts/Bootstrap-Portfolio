@@ -1,0 +1,72 @@
+header {
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+    border: solid 1px #dddddd;
+}
+
+.topbar {
+    justify-content: flex-end;
+}
+.myname {
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+ 
+.container {
+    background: #ffffff;
+    margin: auto;
+    margin-top: 1%;
+    padding: 2%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background: #4aaaa5;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+img {
+    border-bottom: #777777 solid 1px;
+}
+
+footer {
+    background: #777777;
+    border-top: solid 5px #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #777777; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #686868; 
+}

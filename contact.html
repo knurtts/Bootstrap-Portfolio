@@ -6,55 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Robert W. Anderson</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/contact.css" type="text/css">
 </head>
-
 <header>
 
-    <div class="myname">
-        <h1>Robert W. Anderson</h1>
+    <div class="row topbar">
+        <div class="col-xl-3 justify-content-around">
+            <h2 class="myname">Robert W. Anderson</h2>
+        </div>
+        <div class="col-md-6">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
-
-    <div id="nav">
-        <a href="index.html" class="nav">About</a>
-        <a href="portfolio.html" class="nav">Portfolio</a>
-        <a href="contact.html" class="nav">Contact</a>
-    </div>
-
 </header>
 
 <body background="assets/images/whirlpool.png">
-
-    <section id="main">
-
-        <h1 class="contact">Contact</h1>
-
-        <div class="container">
-
-            <form>
-                <p>Name:<br>
-                    <input type="text" placeholder="Your name..."></p>
-
-                <p>Email Address:<br>
-                    <input type="email" placeholder="Email"></p>
-
-                <p>Subject:<br>
-                    <input type="text" placeholder="Subject"></p>
-
-                <p>Message:<br>
-                    <textarea class="message" type="text" placeholder="Type your message here."></textarea><br>
-
-                    <br><input class="send" type="submit" value="Send">
-            </form>
-
+<div class="container">
+    <form>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" class="form-control"  placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text" class="form-control"  placeholder="subject">
+                  </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea class="form-control" rows="9"></textarea>
+            </div>
+          </form>
         </div>
-
-    </section>
-
-    <footer>
-        <p>Footer text</p>
-    </footer>
-
 </body>
-
+<div class="row">
+        <div class="fixed-bottom col-md-12">
+                <footer>Footer Text</footer>
+            </div>
+            </div>
 </html>
